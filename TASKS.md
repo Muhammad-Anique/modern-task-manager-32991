@@ -9,5 +9,5 @@
 6. - [x] Shared components — StatusBadge.tsx, atomic UI
 7. - [x] TaskCard + TaskBoard — Kanban layout
 8. - [x] TaskModal — CRUD form
-9. - [ ] Dashboard — app/page.tsx (Supabase fetch, real-time subs)
+9. - [x] Dashboard — app/page.tsx (Supabase fetch, real-time subs)
 10. - [ ] README — features, schema, setup
