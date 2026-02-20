@@ -1,5 +1,7 @@
 # Modern Task Manager
 
+
+
 A beautiful Kanban-style task management application built with Next.js, TypeScript, Tailwind CSS, and Supabase.
 
 ## Features
