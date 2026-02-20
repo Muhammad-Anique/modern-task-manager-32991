@@ -17,7 +17,7 @@ export interface CreateTaskInput {
   description?: string
   status?: TaskStatus
   priority?: TaskPriority
-  due_date?: string | null
+  due_date?: string
 }
 
 export interface UpdateTaskInput {
@@ -25,10 +25,10 @@ export interface UpdateTaskInput {
   description?: string
   status?: TaskStatus
   priority?: TaskPriority
-  due_date?: string | null
+  due_date?: string
 }
 
-// Database types for Supabase
+// Supabase Database types
 export interface Database {
   public: {
     Tables: {
@@ -37,6 +37,18 @@ export interface Database {
         Insert: Omit<Task, 'id' | 'created_at' | 'updated_at'>
         Update: Partial<Omit<Task, 'id' | 'created_at' | 'updated_at'>>
       }
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      [_ in never]: never
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
     }
   }
 }
