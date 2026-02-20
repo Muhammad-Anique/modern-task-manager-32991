@@ -5,7 +5,7 @@
 2. - [x] Tailwind config — tailwind.config.ts, postcss.config.js, app/globals.css
 3. - [x] Supabase setup — lib/supabase.ts, lib/types.ts (Task model), .env.example
 4. - [x] DB migration — supabase/migrations/20240101000000_create_tasks_table.sql (tasks table, RLS)
-5. - [ ] Root layout — app/layout.tsx (metadata, fonts, styles)
+5. - [x] Root layout — app/layout.tsx (metadata, fonts, styles)
 6. - [ ] Shared components — StatusBadge.tsx, atomic UI
 7. - [ ] TaskCard + TaskBoard — Kanban layout
 8. - [ ] TaskModal — CRUD form
