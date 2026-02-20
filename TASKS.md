@@ -7,7 +7,7 @@
 4. - [x] DB migration — supabase/migrations/20240101000000_create_tasks_table.sql (tasks table, RLS)
 5. - [x] Root layout — app/layout.tsx (metadata, fonts, styles)
 6. - [x] Shared components — StatusBadge.tsx, atomic UI
-7. - [ ] TaskCard + TaskBoard — Kanban layout
+7. - [x] TaskCard + TaskBoard — Kanban layout
 8. - [ ] TaskModal — CRUD form
 9. - [ ] Dashboard — app/page.tsx (Supabase fetch, real-time subs)
 10. - [ ] README — features, schema, setup
