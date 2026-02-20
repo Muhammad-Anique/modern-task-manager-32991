@@ -2,7 +2,7 @@
 
 **Tasks:**
 1. - [x] Init Next.js skeleton — deps: next, react, react-dom, @supabase/supabase-js, lucide-react; configs: tsconfig.json, next.config.ts, .gitignore
-2. - [ ] Tailwind config — tailwind.config.ts, postcss.config.js, app/globals.css
+2. - [x] Tailwind config — tailwind.config.ts, postcss.config.js, app/globals.css
 3. - [ ] Supabase setup — lib/supabase.ts, lib/types.ts (Task model), .env.example
 4. - [ ] DB migration — supabase/migrations/20240101000000_create_tasks_table.sql (tasks table, RLS)
 5. - [ ] Root layout — app/layout.tsx (metadata, fonts, styles)
