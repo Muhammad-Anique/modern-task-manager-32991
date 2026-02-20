@@ -1,4 +1,4 @@
-**Modern Task Manager** — Stack: Next.js, TypeScript, Tailwind CSS, Supabase | Repo: https://github.com/Muhammad-Anique/modern-task-manager-32991 | Status: In Progress
+**Modern Task Manager** — Stack: Next.js, TypeScript, Tailwind CSS, Supabase | Repo: https://github.com/Muhammad-Anique/modern-task-manager-32991 | Status: ✅ COMPLETE
 
 **Tasks:**
 1. - [x] Init Next.js skeleton — deps: next, react, react-dom, @supabase/supabase-js, lucide-react; configs: tsconfig.json, next.config.ts, .gitignore
@@ -10,4 +10,4 @@
 7. - [x] TaskCard + TaskBoard — Kanban layout
 8. - [x] TaskModal — CRUD form
 9. - [x] Dashboard — app/page.tsx (Supabase fetch, real-time subs)
-10. - [ ] README — features, schema, setup
+10. - [x] README — features, schema, setup
